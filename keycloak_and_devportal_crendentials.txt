@@ -1,0 +1,6 @@
+keycloak:
+docker run -e KEYCLOAK_USER=shrivatsa -e KEYCLOAK_PASSWORD=admin -p 8080:8080 jboss/keycloak
+
+developer:
+name:shrivatsa
+token:shrivatsa@1234
